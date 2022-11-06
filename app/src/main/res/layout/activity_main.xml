@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:foregroundTint="#FFC107"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:paddingTop="40dp"
+        android:text="IDZ DIGITAL TASK 1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/FName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Title"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/white"
+        android:hint="First Name"
+        android:paddingTop="30dp"
+        android:textColor="#FBF9F9"
+        android:textColorHighlight="@color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/LName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FName"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Last Name"
+        android:paddingTop="30dp"
+        android:textColor="#FBF9F9"
+        android:textColorHighlight="@color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/Mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LName"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="E-Mail"
+        android:paddingTop="30dp"
+        android:textColor="#FBF9F9"
+        android:textColorHighlight="@color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/DOB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Mail"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Date Of Birth"
+        android:inputType="date"
+        android:paddingTop="30dp"
+        android:textColor="#FBF9F9"
+        android:textColorHighlight="@color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/PhNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DOB"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:paddingTop="30dp"
+        android:textColor="#FBF9F9"
+        android:textColorHighlight="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/SubmitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PhNo"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Submit" />
+
+</RelativeLayout>
